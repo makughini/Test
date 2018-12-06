@@ -66,6 +66,7 @@ public class CharacterControl : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
+        //blah blah blah
         if (collision.gameObject.layer == 9)    // Not on the ground
         {
             IsGround = false;
